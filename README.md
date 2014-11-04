@@ -24,6 +24,10 @@ api for educational administration system of my school, created with python, pro
     get_course_table_html(year, term, opener) - html data of course table from jwxt
    
 ### Todo
-
+    
+query for course table of certain year and term
+  
+  api should be:
+    
     get_course_table(year, term, opener)      - result form table[第几节课][第几周] = 
                                                [几节课, 课名, 课室, 第几节到第几节, 第几周到第几周]
